@@ -1,4 +1,4 @@
-name: CI CalculatorAAN
+name: CI CalculatorJBP
 
 on:
   push:
@@ -29,4 +29,4 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Compilación
-        run: ./gradlew compileJava –no-daemon
+        run: ./gradlew compileJava
